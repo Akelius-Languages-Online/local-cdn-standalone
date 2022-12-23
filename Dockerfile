@@ -11,9 +11,6 @@ RUN rm -v /etc/nginx/nginx.conf
 ADD conf/nginx.conf /etc/nginx/
 ADD conf/mime.types /etc/nginx/
 
-ADD web /usr/share/nginx/html/
-ADD web /var/www/html/
-
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 EXPOSE 8181

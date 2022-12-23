@@ -4,5 +4,10 @@
   "languages": [
     "all"
   ],
+  "options": {
+    "content": "English",
+    "level": "A0",
+    "download": "All"
+  },
   "updatedAt": "24 November 2022"
 }

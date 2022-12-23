@@ -5,4 +5,4 @@
 .DS_Store
 
 # Content
-content/*
+web/content/*
