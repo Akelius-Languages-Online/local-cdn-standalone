@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker run \
+    -p 8181:8181 \
+    -v $(pwd)/content:/usr/share/nginx/html/content \
+    -v $(pwd)/releases:/usr/share/nginx/html/releases \
+    -d akelius/local.cdn
